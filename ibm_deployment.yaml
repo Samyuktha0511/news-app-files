@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: news-app
-          image: jp.icr.io/news-tracker-app/news-tracker-application:1.0
+          image: icr.io/news-tracker-app/news-tracker-application@sha256:8eb099707cc9ceadf3c41873e08d23581e98d739bff3bfac7dab88e68e0b0473
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
